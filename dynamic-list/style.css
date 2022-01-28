@@ -1,10 +1,16 @@
 body {
   background-color: burlywood;
+  /* In the absence of a background on the html element, the body background will cover the page. If there is a background on the html element, the body background behaves just like any other element. */
   font-size: 30px;
 }
 
 ul {
   background-color: brown;
   border: 1px solid black;
-  padding: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+li {
+  margin-left: 30px;
 }
