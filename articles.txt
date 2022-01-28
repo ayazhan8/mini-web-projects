@@ -1,0 +1,6 @@
+Font sizing with rem:
+https://snook.ca/archives/html_and_css/font-size-with-rem
+
+HTML vs Body in CSS:
+https://css-tricks.com/html-vs-body-in-css
+
