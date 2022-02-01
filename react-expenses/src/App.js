@@ -1,32 +1,41 @@
-import Expenses from "./components/Expenses";
+import React from 'react';
 
-function App() {
+import Expenses from './components/Expenses/Expenses';
+
+const App = () => {
   const expenses = [
     {
-      id: "e1",
-      title: "Laptop",
-      amount: 1290,
-      date: new Date(2019, 1, 12),
+      id: 'e1',
+      title: 'Toilet Paper',
+      amount: 94.12,
+      date: new Date(2020, 7, 14),
     },
-    { id: "e2", title: "Airpods", amount: 119.49, date: new Date(2018, 6, 21) },
+    { id: 'e2', title: 'New TV', amount: 799.49, date: new Date(2021, 2, 12) },
     {
-      id: "e3",
-      title: "Flight Tickets",
-      amount: 46.78,
-      date: new Date(2022, 1, 28),
+      id: 'e3',
+      title: 'Car Insurance',
+      amount: 294.67,
+      date: new Date(2021, 2, 28),
     },
     {
-      id: "e4",
-      title: "Lipstick",
-      amount: 50,
-      date: new Date(2022, 2, 2),
+      id: 'e4',
+      title: 'New Desk (Wooden)',
+      amount: 450,
+      date: new Date(2021, 5, 12),
     },
   ];
 
+  // return React.createElement(
+  //   'div',
+  //   {},
+  //   React.createElement('h2', {}, "Let's get started!"),
+  //   React.createElement(Expenses, { items: expenses })
+  // );
+
   return (
     <div>
-      <h2 style={{ textAlign: "center", color: "white" }}>List of Expenses</h2>
-      <Expenses expenses={expenses} />
+      <h2>Let's get started!</h2>
+      <Expenses items={expenses} />
     </div>
   );
 }
