@@ -1,0 +1,17 @@
+.main-header {
+  background: #741188;
+
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  padding: 0 2rem;
+}
+
+.main-header h1 {
+  color: white;
+}
